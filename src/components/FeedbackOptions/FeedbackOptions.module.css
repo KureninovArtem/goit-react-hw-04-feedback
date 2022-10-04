@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
